@@ -2,6 +2,8 @@ package test;
 
 public class A {
 	
+	// THIS IS A COMMENT
+
 	public int x;
 	public int y;
 	public float z;

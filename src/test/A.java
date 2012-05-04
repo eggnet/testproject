@@ -1,5 +1,7 @@
 package test;
 
+import pak.B;
+
 public class A {
 	
 	// THIS IS A COMMENT

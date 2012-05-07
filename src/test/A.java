@@ -1,6 +1,6 @@
 package test;
 
-import pak.B;
+import pak.*;
 
 public class A {
 	

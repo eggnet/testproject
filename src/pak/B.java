@@ -1,6 +1,6 @@
 package pak;
 
-public class B {
+public class B implements Face {
 	
 	public double xx;
 	public float yy;
@@ -23,6 +23,10 @@ public class B {
 		temp = temp * temp;
 		temp = temp - 10;
 		this.xx = temp;
+	}
+	
+	public void Draw() {
+		System.out.println("Drawing in B.");
 	}
 
 }

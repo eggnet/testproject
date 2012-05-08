@@ -11,6 +11,7 @@ public class Child extends Base {
 	
 	public int multiply() {
 		x = x*x;
+		printBase();
 		return x*y;
 	}
 

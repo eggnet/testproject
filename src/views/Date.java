@@ -13,5 +13,10 @@ public class Date {
 	private void Draw() {
 		System.out.println("Drawing the date view");
 	}
+	
+	public boolean trietCommand()
+	{
+		return true;
+	}
 
 }

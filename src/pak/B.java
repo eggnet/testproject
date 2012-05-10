@@ -15,6 +15,7 @@ public class B implements Face {
 		date.getTime(0);
 		date.getTime(xx);
 		A a = new A();
+		a.c.getA();
 		int x = a.getB().getA().getXTimes2();
 		getA().getB().Draw();
 		System.out.println("X: " + x);

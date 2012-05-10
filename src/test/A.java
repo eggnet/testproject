@@ -9,6 +9,8 @@ public class A {
 	public int x;
 	public int y;
 	public float z;
+	
+	public C c = new C('s', 'p');
 
 	public A() {
 		

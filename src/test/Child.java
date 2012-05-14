@@ -2,7 +2,7 @@ package test;
 
 import pak.*;
 
-public class Child extends Base {
+public class Child extends Base implements Face {
 	
 	public Child() {
 		this.x = 0;
@@ -13,6 +13,14 @@ public class Child extends Base {
 		x = x*x;
 		printBase();
 		return x*y;
+	}
+	
+	public void foo(Base base, Child child, int x, Base base2) {
+		
+	}
+	
+	public void Draw() {
+		System.out.println("Drawing in Child class");
 	}
 
 }

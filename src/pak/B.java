@@ -20,6 +20,14 @@ public class B implements Face {
 		getA().getB().Draw();
 		System.out.println("X: " + x);
 		float abc = (float)test((double)0);
+		
+		
+		/// Tests for inheriance
+		Base base = new Base();
+		Child child = new Child();
+		Child child2 = new Child();
+		
+		child.foo(child, child2, 2, child2);
 	}
 	
 	public B(int xx, float yy) {

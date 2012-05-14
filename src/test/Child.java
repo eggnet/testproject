@@ -15,8 +15,8 @@ public class Child extends Base implements Face {
 		return x*y;
 	}
 	
-	public void foo(Base base, Child child, int x, Base base2) {
-		
+	public Child foo(Base base, Child child, int x, Base base2) {
+		return new Child();
 	}
 	
 	public void Draw() {

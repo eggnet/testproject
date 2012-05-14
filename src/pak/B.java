@@ -27,7 +27,7 @@ public class B implements Face {
 		Child child = new Child();
 		Child child2 = new Child();
 		
-		child.foo(child, child2, 2, child2);
+		child.foo(null, child2, 2, child2);
 	}
 	
 	public B(int xx, float yy) {

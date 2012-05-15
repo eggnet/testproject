@@ -10,9 +10,13 @@ public class B implements Face {
 	public Date date;
 	
 	public B() {
-		Child child = new Child();
+		Generic<String> generic = new Generic();
 		
-		child.bar(child);
+		generic.getItem();
+		
+		C c = new C();
+		
+		c.getItem();
 	}
 	
 	public B(int xx, float yy) {

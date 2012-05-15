@@ -1,6 +1,8 @@
 package test;
 
-public class C {
+import pak.Generic;
+
+public class C extends Generic {
 	
 	char a;
 	char b;

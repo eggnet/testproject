@@ -21,5 +21,9 @@ public class Base {
 	public void printBase() {
 		System.out.println("This is the base class.");
 	}
+	
+	public void bar(Base base) {
+		
+	}
 
 }

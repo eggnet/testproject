@@ -11,16 +11,9 @@ public class B implements Face {
 	
 	public B() {
 		Generic<A> generic = new Generic();
+		Generic<B> b = new Generic<B>();
 		
-		A a = new A();
-		
-		generic.setItem(a);
-		
-		generic.getItem().getB().Draw();
-		
-		C c = new C();
-		
-		c.getItem();
+		generic.foobar(b);
 	}
 	
 	public B(int xx, float yy) {

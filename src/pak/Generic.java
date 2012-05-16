@@ -8,6 +8,10 @@ public class Generic<T>{
 		
 	}
 	
+	public void foobar(Generic<B> b) {
+		
+	}
+	
 	public void setItem(T t) {
 		this.item = t;
 	}

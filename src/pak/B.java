@@ -28,6 +28,11 @@ public class B implements Face {
 		
 		c.withList(list);
 		c.withMap(map);
+		
+		for(A a = new A();a != null;){
+			a.getB();
+			a = null;
+		}
 	}
 	
 	public B(int xx, float yy) {

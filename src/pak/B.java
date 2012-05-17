@@ -10,10 +10,10 @@ public class B implements Face {
 	public Date date;
 	
 	public B() {
-		Generic<A> generic = new Generic();
 		Generic<B> b = new Generic<B>();
 		
-		generic.foobar(b);
+		C c = new C();
+		c.foobar(b);
 	}
 	
 	public B(int xx, float yy) {

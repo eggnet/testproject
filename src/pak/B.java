@@ -1,5 +1,10 @@
 package pak;
 
+import java.util.HashMap;
+import java.util.List;
+import java.util.ArrayList;
+import java.util.Map;
+
 import models.*;
 import test.*;
 
@@ -11,9 +16,18 @@ public class B implements Face {
 	
 	public B() {
 		Generic<B> b = new Generic<B>();
-		
 		C c = new C();
 		c.foobar(b);
+		c.foobar(new Generic<B>());
+		
+		Child child = new Child();
+		child.foo(child, child, 0, child);
+		
+		List<String> list = new ArrayList<String>();
+		Map<String, String> map = new HashMap<String, String>();
+		
+		c.withList(list);
+		c.withMap(map);
 	}
 	
 	public B(int xx, float yy) {

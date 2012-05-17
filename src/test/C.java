@@ -1,5 +1,8 @@
 package test;
 
+import java.util.List;
+import java.util.Map;
+
 import pak.Generic;
 
 public class C extends Generic<String> {
@@ -23,6 +26,14 @@ public class C extends Generic<String> {
 	public char getA() {
 		a = b;
 		return a;
+	}
+	
+	public void withMap(Map<String, String> map) {
+		
+	}
+	
+	public void withList(List<String> list) {
+		
 	}
 
 }

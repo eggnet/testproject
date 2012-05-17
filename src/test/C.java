@@ -11,7 +11,9 @@ public class C extends Generic<String> {
 	char b;
 	
 	public C() {
-		
+	    // Here is me changing some stuff
+	    String test = "epic";
+            String t2 = test + "lolz";	
 	}
 	
 	public C(char a) {

@@ -26,8 +26,8 @@ public class B implements Face {
 		List<String> list = new ArrayList<String>();
 		Map<String, String> map = new HashMap<String, String>();
 		
-		c.withList(list);
-		c.withMap(map);
+		c.withList(null);
+		c.withMap(null);
 		
 		for(A a = new A();a != null;){
 			a.getB();

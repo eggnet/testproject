@@ -35,5 +35,9 @@ public class A {
 		B b = new B();
 		return b;
 	}
+	
+	public static B getStaticB() {
+		return new B();
+	}
 
 }

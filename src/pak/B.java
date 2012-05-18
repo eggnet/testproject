@@ -15,9 +15,7 @@ public class B implements Face {
 	public Date date;
 	
 	public B() {
-		B b = new B();
-		b.date = new Date();
-		b.date.getTime(5);
+		B b = A.getStaticB();
 	}
 	
 	public B(int xx, float yy) {

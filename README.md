@@ -1,4 +1,4 @@
 testproject
 ===========
 
-This project is only used for testing purposes of our other projects.
+This project is osome more changesnly used for testing purposes of our other projects.

@@ -1,4 +1,8 @@
 testproject
 ===========
 
-This project is only used for testing purposes of our other projects.
+This project is only used for testsomethinging purposes of our otherthis is a merge projects.
+
+some new lines. 
+
+I messed up the readme.

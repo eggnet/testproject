@@ -16,6 +16,9 @@ public class B implements Face {
 	
 	public B() {
 		B b = A.getStaticB();
+		
+		C c = new C();
+		c.getA();
 	}
 	
 	public B(int xx, float yy) {

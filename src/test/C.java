@@ -14,6 +14,7 @@ public class C extends Generic<String> {
 	    // Here is me changing some stuff
 	    String test = "epic";
             String t2 = test + "lolz";	
+	    System.out.prinln("WOOOOOOOOOOOP");:
 	}
 	
 	public C(char a) {

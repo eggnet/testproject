@@ -1,12 +1,20 @@
 package test;
 
-public class C {
+import java.util.List;
+import java.util.Map;
+
+import pak.Generic;
+
+public class C extends Generic<String> {
 	
 	char a;
 	char b;
 	
 	public C() {
-		
+	    // Here is me changing some stuff
+	    String test = "epic";
+            String t2 = test + "lolz";	
+	    System.out.prinln("WOOOOOOOOOOOP");:
 	}
 	
 	public C(char a) {
@@ -21,6 +29,14 @@ public class C {
 	public char getA() {
 		a = b;
 		return a;
+	}
+	
+	public void withMap(Map<String, String> map) {
+		
+	}
+	
+	public void withList(List<String> list) {
+		
 	}
 
 }

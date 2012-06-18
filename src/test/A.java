@@ -24,6 +24,7 @@ public class A {
 	}
 	
 	public float getZ() {
+		/* Added a comment to getZ in class A */
 		return z;
 	}
 

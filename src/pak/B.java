@@ -15,24 +15,10 @@ public class B implements Face {
 	public Date date;
 	
 	public B() {
-		Generic<B> b = new Generic<B>();
+		B b = A.getStaticB();
+		
 		C c = new C();
-		c.foobar(b);
-		c.foobar(new Generic<B>());
-		
-		Child child = new Child();
-		child.foo(child, child, 0, child);
-		
-		List<String> list = new ArrayList<String>();
-		Map<String, String> map = new HashMap<String, String>();
-		
-		c.withList(null);
-		c.withMap(null);
-		
-		for(A a = new A();a != null;){
-			a.getB();
-			a = null;
-		}
+		c.getA();
 	}
 	
 	public B(int xx, float yy) {

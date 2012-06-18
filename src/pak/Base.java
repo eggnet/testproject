@@ -1,5 +1,6 @@
 package pak;
 
+
 public class Base {
 	
 	public int x;
@@ -26,4 +27,7 @@ public class Base {
 		
 	}
 
+	public void foo(Face b) {
+		b.Draw();
+	}
 }
